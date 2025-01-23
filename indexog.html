@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agriculture Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Green Harvest</h1>
+    <p>Explore the beauty and science of agriculture.</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">Learn More</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Available Products for Bidding</h2>
+      <div class="product">
+        <h3>Organic Wheat</h3>
+        <p>Starting Price: $50</p>
+        <p>Highest Bid: <span id="bid-wheat">$50</span></p>
+        <button onclick="placeBid('bid-wheat')">Place Bid</button>
+      </div>
+      <div class="product">
+        <h3>Fresh Apples</h3>
+        <p>Starting Price: $30</p>
+        <p>Highest Bid: <span id="bid-apples">$30</span></p>
+        <button onclick="placeBid('bid-apples')">Place Bid</button>
+      </div>
+      <div class="product">
+        <h3>Organic Rice</h3>
+        <p>Starting Price: $40</p>
+        <p>Highest Bid: <span id="bid-rice">$40</span></p>
+        <button onclick="placeBid('bid-rice')">Place Bid</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Green Harvest. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
